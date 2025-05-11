@@ -1,0 +1,15 @@
+/home/junho/Repositories/CSharp-Local/SingletonPattern/bin/Debug/net9.0/SingletonPattern
+/home/junho/Repositories/CSharp-Local/SingletonPattern/bin/Debug/net9.0/SingletonPattern.deps.json
+/home/junho/Repositories/CSharp-Local/SingletonPattern/bin/Debug/net9.0/SingletonPattern.runtimeconfig.json
+/home/junho/Repositories/CSharp-Local/SingletonPattern/bin/Debug/net9.0/SingletonPattern.dll
+/home/junho/Repositories/CSharp-Local/SingletonPattern/bin/Debug/net9.0/SingletonPattern.pdb
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.GeneratedMSBuildEditorConfig.editorconfig
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.AssemblyInfoInputs.cache
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.AssemblyInfo.cs
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.csproj.CoreCompileInputs.cache
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.sourcelink.json
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.dll
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/refint/SingletonPattern.dll
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.pdb
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/SingletonPattern.genruntimeconfig.cache
+/home/junho/Repositories/CSharp-Local/SingletonPattern/obj/Debug/net9.0/ref/SingletonPattern.dll
