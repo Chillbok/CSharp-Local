@@ -1,0 +1,14 @@
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.AssemblyInfoInputs.cache
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.AssemblyInfo.cs
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.csproj.CoreCompileInputs.cache
+C:\Users\junho\Repositories\cs-Local\StatePattern\bin\Debug\net9.0\StatePattern.exe
+C:\Users\junho\Repositories\cs-Local\StatePattern\bin\Debug\net9.0\StatePattern.deps.json
+C:\Users\junho\Repositories\cs-Local\StatePattern\bin\Debug\net9.0\StatePattern.runtimeconfig.json
+C:\Users\junho\Repositories\cs-Local\StatePattern\bin\Debug\net9.0\StatePattern.dll
+C:\Users\junho\Repositories\cs-Local\StatePattern\bin\Debug\net9.0\StatePattern.pdb
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.dll
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\refint\StatePattern.dll
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.pdb
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\StatePattern.genruntimeconfig.cache
+C:\Users\junho\Repositories\cs-Local\StatePattern\obj\Debug\net9.0\ref\StatePattern.dll
