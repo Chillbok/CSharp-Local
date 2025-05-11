@@ -4,45 +4,28 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //Singleton 클래스에 있는 Instance() 메서드를 호출해 Singleton 클래스의 인스턴스를 가져온다.
-        //objectA, objectB, objectC 세 개의 변수가 모두 동일한 Singleton 인스턴스를 참조하게 된다.
-        //싱글턴 패턴의 Instance() 메서드는 인스턴스가 없으면 새로 만들어서 반환하고, 이미 있으면 기존 인스턴스를 반환한다.
-        Console.WriteLine("첫 번째 인스턴스 요청");
-        var objectA = Singleton.Instance();
 
-        Console.WriteLine("두 번째 인스턴스 요청");
-        var objectB = Singleton.Instance(); //이미 인스턴스가 있으므로 메시지 출력 X
-        if (objectB == objectA)
-            Console.WriteLine("첫 번째 인스턴스와 같음");
-
-        Console.WriteLine("세 번째 인스턴스 요청");
-        var objectC = Singleton.Instance(); //이미 인스턴스가 있으므로 메시지 출력 X
-        if (objectC == objectA)
-            Console.WriteLine("첫 번째 인스턴스와 같음");
     }
 }
 
-public class Singleton
+public class SingletonClass
 {
-    //private static 필드
-    //클래스 내에서 유일한 인스턴스를 저장할 변수
-    //static으로 선언해 클래스가 로드될 때 메모리에 할당됨.
-    //클래스의 모든 인스턴스(사실상 하나만 존재)가 공유함.
-    private static Singleton? staticSingleton; 
+    //클래스의 객체를 생성할 때 쓰이는 생성자
+    //모든 생성자를 private로 선언해서 함부로 접근하지 못하게 함
+    //객체를 하나만 생성 가능하도록 한정함
+    private SingletonClass() { } //private로 선언해 클래스 외부에서 함부로 객체를 만들 수 없게 만들기
 
-    //public static 메서드
-    //외부에서 singleton 인스턴스에 접근하는 유일한 방법
-    //public으로 선언해 누구나 접근할 수 있게 하고, static으로 선언해 인스턴스를 생성하지 않고도 클래스 이름으로 바로 호출할 수 있게 한다.
-    public static Singleton Instance()
+    private static SingletonClass? instance; //이 변수에 넣어둔 객체만 꺼내서 사용할 예정
+    public static SingletonClass Instance //Instance 프로퍼티 호출
     {
-        //인스턴스 생성 확인
-        //staticSingleton 변수가 null인지 확인한다.
-        //null이면 아직 인스턴스가 생성되지 않은 것이므로, 새로운 인스턴스를 생성한다.
-        if (staticSingleton == null)
+        get
         {
-            staticSingleton = new Singleton();
+            //static인 instance 변수 비어있는지 검사
+            if(instance == null) //비어있는 경우
+            {
+                //새 객체 생성해서 instance 변수에 넣어주기
+                instance = new SingletonClass();
+            }
         }
-        //null이 아니면 이미 인스턴스가 존재하므로, 기존 인스턴스를 반환한다.
-        return staticSingleton;
     }
 }
